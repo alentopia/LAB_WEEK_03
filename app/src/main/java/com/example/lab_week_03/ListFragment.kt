@@ -21,7 +21,7 @@ class ListFragment : Fragment(), View.OnClickListener{
     private var param1: String? = null
     private var param2: String? = null
 
-    private lateinit var coffeeListener: CoffeeListener;
+    private lateinit var coffeeListener: CoffeeListener
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
